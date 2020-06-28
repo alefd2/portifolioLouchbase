@@ -20,7 +20,7 @@ server.get('/', (req,res)=> {
         avatar_url: "https://avatars0.githubusercontent.com/u/46423825?s=460&u=ead1640b97305679a71c8fb723ef1fe43f4dac9a&v=4",
         name: "Alef Oliveira",  
         role: "Estudante de Economia e programação",
-        description: "Formado em contabilidade,  sou um intusiasta de tecnologia a qual estudo veementemente metodos de programação",
+        description: "Formado em contabilidade,  sou um amante de tecnologia a qual dedico tempo e esforço estudando a Stack: JavaScript, NodeJS, ReactJS, ReactNative e C#",
         links: [
             {name: "Github", url:"https://github.com/alefd2"},
             {name: "Twitter", url:"https://twitter.com/alefoliv1"},
