@@ -13,9 +13,8 @@
     
     <h3 style="text-align:center; text-decoration: none; font-weight: bold;">Página inicial</h3>
 
-    ![](assetsGhub/img.jpg)
-
+    <img alt="Launchbase" src="assetsGhub/img.jpg" width="600px"/>
 
     <h3 style="text-align:center; text-decoration: none; font-weight: bold;">Página Vídeos</h3>
 
-    ![](assetsGhub/img2.jpg)
+    <img alt="Launchbase" src="assetsGhub/img2.jpg" width="600px"/>
