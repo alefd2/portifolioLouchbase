@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+
+{%block head%}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Alef Oliveira - Portifolio</title>
+{% endblock %}
+
+{% block content %}
+
+        <div id="wrapper">
+            <h1>Aulas</h1>
+        </div>
+        
+        <section class="cards">
+
+            {% for item in items %}
+            <div class="card" id="{{ item.id }}">
+                <div class="card_img-container {{ 'featured-wrapper' if item.featured}}">
+                    <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="ImgAula">
+                    {% if item.featured %}
+                    <div class="featured">featured</div>
+                    {% endif %}
+                </div>
+                <div class="card__content">
+                    <p>{{item.title}}</p>
+                </div>
+                <div class="card-info">
+                    <p>{{item.duration}}</p>
+                    <p class="card_price">Free</p>
+                </div>
+            </div>
+            {% endfor %}
+
+        </section>
+
+        <script src="/script.js"></script>
+
+{% endblock %}
