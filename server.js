@@ -24,7 +24,7 @@ server.get('/', (req,res)=> {
         links: [
             {name: "Github", url:"https://github.com/alefd2"},
             {name: "Twitter", url:"https://twitter.com/alefoliv1"},
-            {name: "Github", url: "https://www.linkedin.com/in/alef-oliveira-21a68713a/"}
+            {name: "Linkedin", url: "https://www.linkedin.com/in/alef-oliveira-21a68713a/"}
         ]
     }
 
